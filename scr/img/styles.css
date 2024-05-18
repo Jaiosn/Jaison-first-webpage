@@ -4,6 +4,7 @@ body {
     margin: 1px;
     color: #0f172a;
     background-color: #f1f5f9;
+    font-size: 23px;
 
 }
 
@@ -11,10 +12,11 @@ h1,h2,h3,h4,h5,h6 {
     font-family: 'Inter' ;
 }
 #navlogo {
-    height: 50px;
+    height: 60px;
+    width: 120px;
     margin: 0;
     transition: 5s;
-    
+        
 }
 
 h1 {
@@ -52,12 +54,14 @@ h2 {
     padding: 4px;
     text-align: center ;
     background-color: #ffedd5;
+    font-size: 22px;
 
     }
 #jobs td {
     margin: 0 auto;
     border: 1px solid green;
     padding: 4px;
+    font-size: 18px;
     
 }
 #jobs:nth-child(even) {
@@ -98,10 +102,23 @@ a:hover {
 #banner{
     
     width: 100%;
-        object-fit: cover;
-        border: 2px solid gainsboro;
+        /* object-fit: cover; */
+        /* border: 2px solid gainsboro; */
+        height: 440px;
+        align-items: center;
+        border-radius: 33px;
     }
+#banner-p {
+    max-width:  1200px;
 
+    margin: 0 auto;
+}
+#navb {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* margin-right: 2px; */
+    padding: 4px;
+}
 #about {
     display: flex;
     margin: 0 auto;
@@ -140,18 +157,23 @@ max-width: 800px;
     padding: 7px;
     font-weight: 500;
     border-radius: 4px; 
-    
+    font-size: 19px;
 }
 #cover {
     width: 50%;   
 }
 #check {
-    margin-top: 16px;
-    
+    margin-top: 16px;    
 }
 
 #form-data input[type="checkbox"] {
     width: 14px;
     height: 14px;
     text-align: center;
+}
+#sub {
+    color: black;
+    background-color:skyblue;
+    padding: 7px;
+    margin-left: 13px;
 }
